@@ -10,3 +10,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.login_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
